@@ -1,0 +1,37 @@
+{
+  "name": "truffle-plugin-stdjsonin",
+  "version": "0.5.14",
+  "description": "generate Standrad JSON Input from the Truffle CLI",
+  "repository": "https://github.com/mhrsalehi/truffle-plugin-stdjsonin",
+  "main": "stdjsonin.js",
+  "files": [
+    "util.js",
+    "stdjsonin.js",
+    "truffle-plugin.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "Standard JSON Input",
+    "truffle",
+    "plugin",
+    "ethereum",
+    "etherscan",
+    "verify"
+  ],
+  "author": "Mehrdad Salehi",
+  "license": "MIT",
+  "dependencies": {
+    "cli-logger": "^0.5.40"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
